@@ -92,10 +92,10 @@ resources:
     type: github
     ref: main
     endpoint: ALMToolsPAT
-    name: Microsoft/coe-alm-accelerator-templates
+    name: PowerAppsTools/coe-alm-accelerator-templates
 
 variables:
-- group: alm-accelerator-variable-group
+- group: test-csa-variable-group
 
 stages:
 - stage: export_solution_to_git
